@@ -33,8 +33,9 @@ pip install -r requirements.txt
 Create a `.env` file with a free key from aistudio.google.com/apikey:
 ```
 GOOGLE_API_KEY=your_key_here
-GEMINI_MODEL=gemini-4-hydrogen
+GEMINI_MODEL=gemini-4-hydrogen 
 ```
+`GEMINI_MODEL` can be any model your key supports. List the available ones in AI Studio.
 Then run:
 ```bash
 streamlit run app.py
